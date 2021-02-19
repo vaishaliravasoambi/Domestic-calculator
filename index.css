@@ -1,0 +1,83 @@
+.header
+{
+    font-size: 50px;
+    font-weight: 500;
+    color:white;
+    margin: 1%;
+    padding-bottom: 3%;
+    font-family: 'Fugaz One', cursive;
+}
+body{
+    background-image:url("images/Large-Triangles.svg");
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+input{
+    /* margin-top: 30%; */
+    padding-top:20% ;
+
+}
+.inputs{
+
+    width: 80%;
+    
+    color:white;
+    font-size: 20px;
+    /* background-color:black; */
+    /* border: 1px solid white; */
+    /* opacity: 0.2; */
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.button{
+    
+
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 10px 30px;
+        border-radius: 50px;
+        transition: 0.5s;
+        color: #3498db;
+        border:2px solid #3498db;
+        text-decoration: none;
+        margin: 7%;
+    }
+
+    .button:hover{
+          background-color: #3498db;
+          color: white;
+      }
+     
+      label{
+        font-family: 'Caveat', cursive;
+      }
+
+      .total{
+        font-family: 'Caveat', cursive;
+        font-size: 25px;
+        color: red;
+        text-shadow: black 2px;
+      }
+
+
+      @media(max-width:600px)
+      {
+        .header{  font-size: 25px;
+        font-weight: 200;
+        color:white;
+        margin: 1%;
+        padding-bottom: 3%;
+        }
+    
+        .total{
+            font-size: 18px;
+          }
+                     
+      }

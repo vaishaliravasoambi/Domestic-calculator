@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>Static Template</title>
+  </head>
+  <body>
+  
+  <div class="hole" >  
+     
+        <center><header class="header">🏠 Domestic Utilities Bill Calculator 📅</header></center>
+        <div class=" first col-sm-6">
+        <img alt="home" src="images/home6.png" width=100% height=100% />
+        </div>
+        <div class="col-sm-6">
+            <div class="inputs">
+                    <div class="col-sm-2">
+                        <label>House </label>
+                        <label>Water </label>
+                        <label>Electicity </label>
+                        <label>Phone </label>
+                        <label>Gas </label>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input
+                            id="HouseInput"
+                            type="number"
+                            value=""
+                            class="form-control"
+                            placeholder="Enter Number of sq.fts"
+                        />
+                        <input
+                            id="WaterInput"
+                            type="number"
+                            value=""
+                            class="form-control"
+                            placeholder="Enter How Many Liters of water "
+                            />
+                        <input
+                            id="EleInput"
+                            type="number"
+                            value=""
+                            class="form-control"
+                            placeholder="Enter How Many Units"
+                            />
+                        <input
+                            id="PhoneInput"
+                            type="number"
+                            value=""
+                            class="form-control"
+                            placeholder="Enter How Many hrs "
+                            />
+                            <input
+                            id="GasInput"
+                            type="number"
+                            value=""
+                            class="form-control"
+                            placeholder="Enter How Many liters "
+                            />
+                    </div>
+                          <div class="col-sm-2">
+                           <div class="row-sm-12">
+                               <div class="row-sm-3">
+                                    <label>Sq.ft</label>
+                                </div>
+                                <div class="row-sm-3">
+                                    <label>Liters</label>
+                                </div>
+                                <div class="row-sm-3">
+                                    <label>KWH </label>
+                                </div>
+                                <div class="row-sm-3">
+                                    <label>Mins</label>
+                                 </div>   
+                                  <div class="row-sm-3">
+                                    <label>Liters</label>
+                                 </div>   
+                           </div> 
+                           </div>
+         
+                              
+        <div class="results">
+                                      <button class="button" id="button" onclick="handleClick()">Calculate</button></br>
+                                <h6>(Including 18% GST on Electricity and 5% GST on Phone Bill </h6>
+           <h6 class="total">Total spending for this Month:</h6><p id="result"></p>
+            <p id="H"></p>
+            <p id="W"></p>
+            <p id="E"></p>
+            <p id="P"></p>
+            <p id="G"></p>
+       </div>
+ 
+           
+         </div>
+
+
+     </div>
+  </div>
+  </body>
+  <script src="index.js"></script>
+</html>
